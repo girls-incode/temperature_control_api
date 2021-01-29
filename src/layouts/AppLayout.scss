@@ -1,0 +1,49 @@
+@import "@elastic/eui/src/theme_light.scss";
+
+body {
+    font-size: 1rem;
+    color: #1a1c21;
+}
+
+p {
+    margin-bottom: .5rem;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.7rem;
+}
+
+input {
+    min-width: 320px;
+}
+
+.euiPanel {
+    margin-top: 60px;
+}
+
+.euiPage {
+    background-color: #f5f7fa;
+    font-size: 1.1rem;
+}
+
+.euiPageContent {
+    border: 0 !important;
+    background-color: inherit !important;
+    box-shadow: none !important;
+}
+
+.euiPageBody {
+    min-height: 100vh;
+}
+
+.text-center {
+    text-align: center;
+}
