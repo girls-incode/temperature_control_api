@@ -7,8 +7,8 @@ import './Header.scss';
 function Header() {
     return (
         <header>
-            <h1 className='text-center'>
-                <a href='/' className='logo'>
+            <h1 className='text-center logo'>
+                <a href='/'>
                     <EuiIcon type="visualizeApp" size="l" />ThermoCo
                 </a>
             </h1>
